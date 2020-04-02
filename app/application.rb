@@ -22,7 +22,7 @@ class Application
           resp.write "{item}\n"
       end
     end
-    else
+  elsif req
       resp.write "Path Not Found"
     end
 
