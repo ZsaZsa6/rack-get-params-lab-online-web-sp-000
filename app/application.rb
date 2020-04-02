@@ -24,7 +24,7 @@ class Application
     end
     elsif req.path.match(/add/)
       item_to_add = req.params["item"]
-        if
+        if @@items
       resp.write "Path Not Found"
     end
 
